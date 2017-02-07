@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84F296B81E49A65600CC4881 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F296B71E49A65600CC4881 /* AppDelegate.m */; };
+		84F296BB1E49A65600CC4881 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F296BA1E49A65600CC4881 /* main.m */; };
+		84F296BD1E49A65600CC4881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F296BC1E49A65600CC4881 /* Assets.xcassets */; };
+		84F296C01E49A65700CC4881 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F296BE1E49A65700CC4881 /* MainMenu.xib */; };
+		84F296CB1E49A65700CC4881 /* POPMenuButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F296CA1E49A65700CC4881 /* POPMenuButtonTests.m */; };
+		84F296D61E49A65700CC4881 /* POPMenuButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F296D51E49A65700CC4881 /* POPMenuButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84F296C71E49A65700CC4881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84F296AB1E49A65600CC4881 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84F296B21E49A65600CC4881;
+			remoteInfo = POPMenuButton;
+		};
+		84F296D21E49A65700CC4881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84F296AB1E49A65600CC4881 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84F296B21E49A65600CC4881;
+			remoteInfo = POPMenuButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84F296B31E49A65600CC4881 /* POPMenuButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POPMenuButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F296B61E49A65600CC4881 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84F296B71E49A65600CC4881 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84F296BA1E49A65600CC4881 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84F296BC1E49A65600CC4881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84F296BF1E49A65700CC4881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		84F296C11E49A65700CC4881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F296C61E49A65700CC4881 /* POPMenuButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POPMenuButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F296CA1E49A65700CC4881 /* POPMenuButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POPMenuButtonTests.m; sourceTree = "<group>"; };
+		84F296CC1E49A65700CC4881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F296D11E49A65700CC4881 /* POPMenuButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POPMenuButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F296D51E49A65700CC4881 /* POPMenuButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POPMenuButtonUITests.m; sourceTree = "<group>"; };
+		84F296D71E49A65700CC4881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84F296B01E49A65600CC4881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F296C31E49A65700CC4881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F296CE1E49A65700CC4881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84F296AA1E49A65600CC4881 = {
+			isa = PBXGroup;
+			children = (
+				84F296B51E49A65600CC4881 /* POPMenuButton */,
+				84F296C91E49A65700CC4881 /* POPMenuButtonTests */,
+				84F296D41E49A65700CC4881 /* POPMenuButtonUITests */,
+				84F296B41E49A65600CC4881 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84F296B41E49A65600CC4881 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84F296B31E49A65600CC4881 /* POPMenuButton.app */,
+				84F296C61E49A65700CC4881 /* POPMenuButtonTests.xctest */,
+				84F296D11E49A65700CC4881 /* POPMenuButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84F296B51E49A65600CC4881 /* POPMenuButton */ = {
+			isa = PBXGroup;
+			children = (
+				84F296B61E49A65600CC4881 /* AppDelegate.h */,
+				84F296B71E49A65600CC4881 /* AppDelegate.m */,
+				84F296BC1E49A65600CC4881 /* Assets.xcassets */,
+				84F296BE1E49A65700CC4881 /* MainMenu.xib */,
+				84F296C11E49A65700CC4881 /* Info.plist */,
+				84F296B91E49A65600CC4881 /* Supporting Files */,
+			);
+			path = POPMenuButton;
+			sourceTree = "<group>";
+		};
+		84F296B91E49A65600CC4881 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84F296BA1E49A65600CC4881 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84F296C91E49A65700CC4881 /* POPMenuButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				84F296CA1E49A65700CC4881 /* POPMenuButtonTests.m */,
+				84F296CC1E49A65700CC4881 /* Info.plist */,
+			);
+			path = POPMenuButtonTests;
+			sourceTree = "<group>";
+		};
+		84F296D41E49A65700CC4881 /* POPMenuButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84F296D51E49A65700CC4881 /* POPMenuButtonUITests.m */,
+				84F296D71E49A65700CC4881 /* Info.plist */,
+			);
+			path = POPMenuButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84F296B21E49A65600CC4881 /* POPMenuButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F296DA1E49A65700CC4881 /* Build configuration list for PBXNativeTarget "POPMenuButton" */;
+			buildPhases = (
+				84F296AF1E49A65600CC4881 /* Sources */,
+				84F296B01E49A65600CC4881 /* Frameworks */,
+				84F296B11E49A65600CC4881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POPMenuButton;
+			productName = POPMenuButton;
+			productReference = 84F296B31E49A65600CC4881 /* POPMenuButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84F296C51E49A65700CC4881 /* POPMenuButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F296DD1E49A65700CC4881 /* Build configuration list for PBXNativeTarget "POPMenuButtonTests" */;
+			buildPhases = (
+				84F296C21E49A65700CC4881 /* Sources */,
+				84F296C31E49A65700CC4881 /* Frameworks */,
+				84F296C41E49A65700CC4881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84F296C81E49A65700CC4881 /* PBXTargetDependency */,
+			);
+			name = POPMenuButtonTests;
+			productName = POPMenuButtonTests;
+			productReference = 84F296C61E49A65700CC4881 /* POPMenuButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84F296D01E49A65700CC4881 /* POPMenuButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F296E01E49A65700CC4881 /* Build configuration list for PBXNativeTarget "POPMenuButtonUITests" */;
+			buildPhases = (
+				84F296CD1E49A65700CC4881 /* Sources */,
+				84F296CE1E49A65700CC4881 /* Frameworks */,
+				84F296CF1E49A65700CC4881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84F296D31E49A65700CC4881 /* PBXTargetDependency */,
+			);
+			name = POPMenuButtonUITests;
+			productName = POPMenuButtonUITests;
+			productReference = 84F296D11E49A65700CC4881 /* POPMenuButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84F296AB1E49A65600CC4881 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84F296B21E49A65600CC4881 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					84F296C51E49A65700CC4881 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 84F296B21E49A65600CC4881;
+					};
+					84F296D01E49A65700CC4881 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 84F296B21E49A65600CC4881;
+					};
+				};
+			};
+			buildConfigurationList = 84F296AE1E49A65600CC4881 /* Build configuration list for PBXProject "POPMenuButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84F296AA1E49A65600CC4881;
+			productRefGroup = 84F296B41E49A65600CC4881 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F296B21E49A65600CC4881 /* POPMenuButton */,
+				84F296C51E49A65700CC4881 /* POPMenuButtonTests */,
+				84F296D01E49A65700CC4881 /* POPMenuButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84F296B11E49A65600CC4881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F296BD1E49A65600CC4881 /* Assets.xcassets in Resources */,
+				84F296C01E49A65700CC4881 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F296C41E49A65700CC4881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F296CF1E49A65700CC4881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84F296AF1E49A65600CC4881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F296BB1E49A65600CC4881 /* main.m in Sources */,
+				84F296B81E49A65600CC4881 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F296C21E49A65700CC4881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F296CB1E49A65700CC4881 /* POPMenuButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F296CD1E49A65700CC4881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F296D61E49A65700CC4881 /* POPMenuButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84F296C81E49A65700CC4881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84F296B21E49A65600CC4881 /* POPMenuButton */;
+			targetProxy = 84F296C71E49A65700CC4881 /* PBXContainerItemProxy */;
+		};
+		84F296D31E49A65700CC4881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84F296B21E49A65600CC4881 /* POPMenuButton */;
+			targetProxy = 84F296D21E49A65700CC4881 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84F296BE1E49A65700CC4881 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F296BF1E49A65700CC4881 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84F296D81E49A65700CC4881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84F296D91E49A65700CC4881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84F296DB1E49A65700CC4881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = POPMenuButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aifro.POPMenuButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84F296DC1E49A65700CC4881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = POPMenuButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aifro.POPMenuButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84F296DE1E49A65700CC4881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = POPMenuButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aifro.POPMenuButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POPMenuButton.app/Contents/MacOS/POPMenuButton";
+			};
+			name = Debug;
+		};
+		84F296DF1E49A65700CC4881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = POPMenuButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aifro.POPMenuButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POPMenuButton.app/Contents/MacOS/POPMenuButton";
+			};
+			name = Release;
+		};
+		84F296E11E49A65700CC4881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = POPMenuButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aifro.POPMenuButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = POPMenuButton;
+			};
+			name = Debug;
+		};
+		84F296E21E49A65700CC4881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = POPMenuButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aifro.POPMenuButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = POPMenuButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84F296AE1E49A65600CC4881 /* Build configuration list for PBXProject "POPMenuButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F296D81E49A65700CC4881 /* Debug */,
+				84F296D91E49A65700CC4881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F296DA1E49A65700CC4881 /* Build configuration list for PBXNativeTarget "POPMenuButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F296DB1E49A65700CC4881 /* Debug */,
+				84F296DC1E49A65700CC4881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84F296DD1E49A65700CC4881 /* Build configuration list for PBXNativeTarget "POPMenuButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F296DE1E49A65700CC4881 /* Debug */,
+				84F296DF1E49A65700CC4881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84F296E01E49A65700CC4881 /* Build configuration list for PBXNativeTarget "POPMenuButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F296E11E49A65700CC4881 /* Debug */,
+				84F296E21E49A65700CC4881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84F296AB1E49A65600CC4881 /* Project object */;
+}
