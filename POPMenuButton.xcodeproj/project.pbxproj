@@ -13,6 +13,12 @@
 		84F296C01E49A65700CC4881 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F296BE1E49A65700CC4881 /* MainMenu.xib */; };
 		84F296CB1E49A65700CC4881 /* POPMenuButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F296CA1E49A65700CC4881 /* POPMenuButtonTests.m */; };
 		84F296D61E49A65700CC4881 /* POPMenuButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F296D51E49A65700CC4881 /* POPMenuButtonUITests.m */; };
+		84F296E61E49A66700CC4881 /* WC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F296E41E49A66700CC4881 /* WC.m */; };
+		84F296E71E49A66700CC4881 /* WC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F296E51E49A66700CC4881 /* WC.xib */; };
+		84F296EA1E49A6A500CC4881 /* PopMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F296E91E49A6A500CC4881 /* PopMenuButton.m */; };
+		84F296EE1E49A87B00CC4881 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F296EB1E49A87B00CC4881 /* 1.png */; };
+		84F296EF1E49A87B00CC4881 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F296EC1E49A87B00CC4881 /* 2.png */; };
+		84F296F01E49A87B00CC4881 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F296ED1E49A87B00CC4881 /* 3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +52,14 @@
 		84F296D11E49A65700CC4881 /* POPMenuButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POPMenuButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F296D51E49A65700CC4881 /* POPMenuButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POPMenuButtonUITests.m; sourceTree = "<group>"; };
 		84F296D71E49A65700CC4881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F296E31E49A66700CC4881 /* WC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC.h; sourceTree = "<group>"; };
+		84F296E41E49A66700CC4881 /* WC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC.m; sourceTree = "<group>"; };
+		84F296E51E49A66700CC4881 /* WC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WC.xib; sourceTree = "<group>"; };
+		84F296E81E49A6A500CC4881 /* PopMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopMenuButton.h; sourceTree = "<group>"; };
+		84F296E91E49A6A500CC4881 /* PopMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopMenuButton.m; sourceTree = "<group>"; };
+		84F296EB1E49A87B00CC4881 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = POPMenuButton/1.png; sourceTree = "<group>"; };
+		84F296EC1E49A87B00CC4881 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = POPMenuButton/2.png; sourceTree = "<group>"; };
+		84F296ED1E49A87B00CC4881 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = POPMenuButton/3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +90,9 @@
 		84F296AA1E49A65600CC4881 = {
 			isa = PBXGroup;
 			children = (
+				84F296EB1E49A87B00CC4881 /* 1.png */,
+				84F296EC1E49A87B00CC4881 /* 2.png */,
+				84F296ED1E49A87B00CC4881 /* 3.png */,
 				84F296B51E49A65600CC4881 /* POPMenuButton */,
 				84F296C91E49A65700CC4881 /* POPMenuButtonTests */,
 				84F296D41E49A65700CC4881 /* POPMenuButtonUITests */,
@@ -96,12 +113,17 @@
 		84F296B51E49A65600CC4881 /* POPMenuButton */ = {
 			isa = PBXGroup;
 			children = (
+				84F296E81E49A6A500CC4881 /* PopMenuButton.h */,
+				84F296E91E49A6A500CC4881 /* PopMenuButton.m */,
 				84F296B61E49A65600CC4881 /* AppDelegate.h */,
 				84F296B71E49A65600CC4881 /* AppDelegate.m */,
 				84F296BC1E49A65600CC4881 /* Assets.xcassets */,
 				84F296BE1E49A65700CC4881 /* MainMenu.xib */,
 				84F296C11E49A65700CC4881 /* Info.plist */,
 				84F296B91E49A65600CC4881 /* Supporting Files */,
+				84F296E31E49A66700CC4881 /* WC.h */,
+				84F296E41E49A66700CC4881 /* WC.m */,
+				84F296E51E49A66700CC4881 /* WC.xib */,
 			);
 			path = POPMenuButton;
 			sourceTree = "<group>";
@@ -236,6 +258,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F296BD1E49A65600CC4881 /* Assets.xcassets in Resources */,
+				84F296EE1E49A87B00CC4881 /* 1.png in Resources */,
+				84F296EF1E49A87B00CC4881 /* 2.png in Resources */,
+				84F296F01E49A87B00CC4881 /* 3.png in Resources */,
+				84F296E71E49A66700CC4881 /* WC.xib in Resources */,
 				84F296C01E49A65700CC4881 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +289,8 @@
 			files = (
 				84F296BB1E49A65600CC4881 /* main.m in Sources */,
 				84F296B81E49A65600CC4881 /* AppDelegate.m in Sources */,
+				84F296EA1E49A6A500CC4881 /* PopMenuButton.m in Sources */,
+				84F296E61E49A66700CC4881 /* WC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
